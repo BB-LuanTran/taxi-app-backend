@@ -8,7 +8,7 @@
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
-    "start:localdev": "dotenv -e .env.local nest start --watch",
+    "start:localdev": "dotenv -e .env nest start --watch",
     "start:prod": "node dist/main",
     "migrate:local": "dotenv -e .env.local -- npx prisma migrate dev",
     "seed:local": "dotenv -e .env.local -- npx prisma db seed",
